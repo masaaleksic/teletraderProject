@@ -1,0 +1,25 @@
+@import "../../../assets/scss/colors.scss";
+
+align-right {
+    text-align: right !important;
+}
+
+.detail-table {
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 0.16);
+    border-radius: 3px;
+}
+
+.add-btn {
+    color: white;
+    background-color: $turquoise-color;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.remove-btn {
+    color: white;
+    background-color: $red-color;
+    border: 1px solid black;
+    border-radius: 3px;
+}

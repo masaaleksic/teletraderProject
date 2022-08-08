@@ -1,0 +1,32 @@
+@import "../../../assets/scss/colors.scss";
+
+.header-div {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 0.16);
+}
+
+.login-button {
+    background-color: $turquoise-color;
+    color: white;
+    border: 0px;
+}
+
+.active-link { 
+    color: $turquoise-color;
+    text-decoration: none;
+}
+
+.active-link:hover { 
+    color: $darker-turquoise-color;
+}
+
+.not-active-link {
+    color: $grey-color;
+    text-decoration: none;
+}
+
+.not-active-link:hover {
+    color: $darker-grey-color;
+}

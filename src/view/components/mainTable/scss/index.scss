@@ -1,0 +1,43 @@
+@import "../../../assets/scss/colors.scss";
+
+table {
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid gray;
+}
+
+th, td:first-child {
+    text-align: left;
+}
+
+td:last-child {
+    border-bottom: none;
+}
+
+.main-table {  
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 0.16);
+    border-radius: 3px;
+}
+
+.table-row {
+    border-bottom: 1px solid grey;
+}
+
+.symbol-link-text {
+    text-decoration: none;
+    color: $turquoise-color; 
+}
+
+.symbol-link-text:hover {
+    text-decoration: underline;
+    color: $darker-turquoise-color;
+}
+
+.align-right{
+    text-align: right !important;
+}

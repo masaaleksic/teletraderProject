@@ -1,0 +1,47 @@
+@import "./colors.scss";
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.ttf');
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.font-helvetica {
+  font-family: 'Helvetica', SansSerif, Arial;
+}
+
+.font-helvetica-neue {
+  font-family: 'HelveticaNeue', SansSerif, Arial;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: $scrollbar-thumb;
+}
+
+::-webkit-scrollbar-track {
+  background: $scrollbar-track;
+  border: solid 2px $scrollbar-track-border;
+  scroll-padding: 1px;
+}
+
